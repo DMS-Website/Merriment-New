@@ -219,14 +219,14 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #ef6413;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-  color: #0056b3;
+  color: #ef6413;
   text-decoration: underline;
 }
 
@@ -675,6 +675,7 @@ pre code {
 .row {
   display: -ms-flexbox;
   display: flex;
+  justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-right: -15px;
@@ -1092,8 +1093,13 @@ pre code {
   .col-md-3 {
     -ms-flex: 0 0 25%;
         flex: 0 0 25%;
-    max-width: 25%;
+    max-width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+ 
+
   .col-md-4 {
     -ms-flex: 0 0 33.333333%;
         flex: 0 0 33.333333%;
@@ -1122,7 +1128,7 @@ pre code {
   .col-md-9 {
     -ms-flex: 0 0 75%;
         flex: 0 0 75%;
-    max-width: 75%;
+    max-width: 60%;
   }
   .col-md-10 {
     -ms-flex: 0 0 83.333333%;
@@ -8200,9 +8206,9 @@ a.bg-dark:focus, a.bg-dark:hover {
   text-align: left !important;
 }
 
-.text-right {
+/*.text-right {
   text-align: right !important;
-}
+}*/
 
 .text-center {
   text-align: center !important;
